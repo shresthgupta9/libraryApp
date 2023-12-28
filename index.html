@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Library</title>
+    <link rel="stylesheet" href="./components/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="heading flex">
+        <h1>My Library</h1>
+      </div>
+    </header>
+    <main>
+      <div class="btn flex">
+        <button id="addBtn">Add a Book</button>
+      </div>
+      <div class="popup flex">
+        <div class="form grid">
+          <form>
+            <label for="title">Title</label>
+            <br />
+            <input type="text" id="title" name="title" required />
+            <br />
+            <label for="author">Author</label>
+            <br />
+            <input type="text" id="author" name="author" required />
+            <br />
+            <label for="pages">Pages</label>
+            <br />
+            <input type="number" id="pages" name="pages" min="0" required />
+            <br />
+            <p>Have you read it?</p>
+            <input type="radio" id="yes" name="read" value="yes" />
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="read" value="no" />
+            <label for="no">No</label><br />
+            <button type="submit" id="submitBtn">Submit</button>
+          </form>
+          <button id="closeBtn" class="btn">Close</button>
+        </div>
+      </div>
+      <div class="items">
+        <!-- <div class="test item">
+            <p><strong>Title:</strong> Lorem ipsum dolor sit amet.</p>
+            <p>Author: Lorem, ipsum dolor.</p>
+            <p>Pages: 200.</p>
+            <p>Have read: No.</p>
+        </div>
+        <div class="test item">
+            <p>Title: Lorem ipsum dolor sit amet.</p>
+            <p>Author: Lorem, ipsum dolor.</p>
+            <p>Pages: 200.</p>
+            <p>Have read: No.</p>
+        </div> -->
+      </div>
+    </main>
+    <script src="./components/script.js"></script>
+  </body>
+</html>
