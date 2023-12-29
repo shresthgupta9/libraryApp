@@ -88,6 +88,17 @@ form input {
   z-index: 9999;
 }
 
+.close {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    color: white;
+    padding: 0;
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+}
+
 .form {
   position: fixed;
   top: 30vh;
@@ -105,6 +116,14 @@ form input {
   margin: 5px 0;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.delete {
+    background-color: rgb(255, 69, 69);
+    color: white;
+    padding: 7px 10px;
+    margin: 7px 0;
+    font-size: 16px;
 }
 
 @media (min-width: 768px) {
