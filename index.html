@@ -34,9 +34,9 @@
             <input type="number" id="pages" name="pages" min="0" required />
             <br />
             <p>Have you read it?</p>
-            <input type="radio" id="yes" name="read" value="yes" />
+            <input type="radio" id="yes" name="read" value="yes" required/>
             <label for="yes">Yes</label>
-            <input type="radio" id="no" name="read" value="no" />
+            <input type="radio" id="no" name="read" value="no" required/>
             <label for="no">No</label><br />
             <button type="submit" id="submitBtn">Submit</button>
           </form>
@@ -44,6 +44,9 @@
       </div>
       <div class="items"></div>
     </main>
+    <footer>
+      <div class="sign"><p>Created by Shresth Raj Gupta</p></div>
+    </footer>
     <script src="./components/script.js"></script>
   </body>
 </html>
